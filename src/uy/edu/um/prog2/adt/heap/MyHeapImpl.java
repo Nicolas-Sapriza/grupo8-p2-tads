@@ -74,11 +74,11 @@ public class MyHeapImpl<T extends Comparable<T>> implements MyHeap<T> {
             int max = l;
             int r = l + 1;
 
-            if (r < size && (Integer) listaElementos[r] > (Integer) listaElementos[l]) {
+            if (r < size && compararNumeros(listaElementos[r], listaElementos[l]) > 0) {
                 max = r;
             }
 
-            if ((Integer) listaElementos[max] > (Integer) listaElementos[k]) {
+            if (compararNumeros(listaElementos[max], listaElementos[k]) > 0) {
                 swap(max, k);
                 k = max;
                 l = 2 * k + 1;
@@ -87,6 +87,7 @@ public class MyHeapImpl<T extends Comparable<T>> implements MyHeap<T> {
             }
         }
     }
+
 
     private int compararNumeros(T i, T j) {
         int resultado = i.compareTo(j);

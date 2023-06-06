@@ -13,5 +13,9 @@ public class Main {
         myHeap.insert("Ramonn");
         myHeap.insert("Com");
 
+        myHeap.delete();
+
+        myHeap.imprimir();
+
     }
 }
