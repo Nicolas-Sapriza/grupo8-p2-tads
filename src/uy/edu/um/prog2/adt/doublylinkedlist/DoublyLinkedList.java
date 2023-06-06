@@ -1,6 +1,4 @@
-package uy.edu.um.prog2.entities.tads.doublelinkedlist;
-
-import uy.edu.um.prog2.interfaces.doublelinkedlist.MyDoublyLinkedList;
+package uy.edu.um.prog2.adt.doublylinkedlist;
 
 import java.util.Iterator;
 import java.util.Objects;

@@ -1,13 +1,12 @@
-package uy.edu.um.prog2.entities.tads.tree;
+package uy.edu.um.prog2.adt.tree;
+
 
 import org.junit.jupiter.api.Test;
-import uy.edu.um.prog2.entities.tads.linkedlist.MyLinkedListImp;
-import uy.edu.um.prog2.exceptions.linkedlist.EmptyListException;
-import uy.edu.um.prog2.exceptions.treeBST.ErrorControlado;
-import uy.edu.um.prog2.interfaces.linkedlist.MyLinkedList;
-import uy.edu.um.prog2.interfaces.tree.MyTree;
+import uy.edu.um.prog2.adt.tree.exceptions.EmptyListException;
+import uy.edu.um.prog2.adt.tree.exceptions.ErrorControlado;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class TreeTest {
 

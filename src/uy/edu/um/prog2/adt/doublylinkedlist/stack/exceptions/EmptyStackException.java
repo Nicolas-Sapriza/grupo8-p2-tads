@@ -1,4 +1,4 @@
-package uy.edu.um.prog2.exceptions.stack;
+package uy.edu.um.prog2.adt.doublylinkedlist.stack.exceptions;
 
 public class EmptyStackException extends Exception{
     public EmptyStackException() {

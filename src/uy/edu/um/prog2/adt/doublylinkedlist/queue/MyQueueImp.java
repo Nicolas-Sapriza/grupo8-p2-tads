@@ -1,8 +1,7 @@
-package uy.edu.um.prog2.entities.tads.queue;
+package uy.edu.um.prog2.adt.doublylinkedlist.queue;
 
-import uy.edu.um.prog2.entities.tads.doublelinkedlist.DoublyLinkedList;
-import uy.edu.um.prog2.exceptions.queue.EmptyQueueException;
-import uy.edu.um.prog2.interfaces.queue.MyQueue;
+import uy.edu.um.prog2.adt.doublylinkedlist.DoublyLinkedList;
+import uy.edu.um.prog2.adt.doublylinkedlist.queue.exceptions.EmptyQueueException;
 
 public class MyQueueImp <T> extends DoublyLinkedList<T> implements MyQueue<T> {
     public MyQueueImp() {

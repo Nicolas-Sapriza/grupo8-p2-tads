@@ -1,6 +1,6 @@
-package uy.edu.um.prog2.interfaces.stack;
+package uy.edu.um.prog2.adt.doublylinkedlist.stack;
 
-import uy.edu.um.prog2.exceptions.stack.EmptyStackException;
+import uy.edu.um.prog2.adt.doublylinkedlist.stack.exceptions.EmptyStackException;
 
 public interface MyStack <T> {
     public void pop() throws EmptyStackException;

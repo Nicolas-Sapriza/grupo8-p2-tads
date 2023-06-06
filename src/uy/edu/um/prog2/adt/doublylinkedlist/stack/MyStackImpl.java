@@ -1,8 +1,7 @@
-package uy.edu.um.prog2.entities.tads.stack;
+package uy.edu.um.prog2.adt.doublylinkedlist.stack;
 
-import uy.edu.um.prog2.entities.tads.doublelinkedlist.DoublyLinkedList;
-import uy.edu.um.prog2.exceptions.stack.EmptyStackException;
-import uy.edu.um.prog2.interfaces.stack.MyStack;
+import uy.edu.um.prog2.adt.doublylinkedlist.DoublyLinkedList;
+import uy.edu.um.prog2.adt.doublylinkedlist.stack.exceptions.EmptyStackException;
 
 public class MyStackImpl<T> extends DoublyLinkedList<T> implements MyStack<T> {
     public MyStackImpl() {

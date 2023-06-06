@@ -1,8 +1,8 @@
-package uy.edu.um.prog2.entities.tads.queue;
+package uy.edu.um.prog2.adt.doublylinkedlist.queue;
 
 import org.junit.jupiter.api.Test;
-import uy.edu.um.prog2.exceptions.queue.EmptyQueueException;
-import uy.edu.um.prog2.interfaces.queue.MyQueue;
+import uy.edu.um.prog2.adt.doublylinkedlist.queue.exceptions.EmptyQueueException;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 

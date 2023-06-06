@@ -1,4 +1,4 @@
-package uy.edu.um.prog2.interfaces.doublelinkedlist;
+package uy.edu.um.prog2.adt.doublylinkedlist;
 
 import java.util.Iterator;
 

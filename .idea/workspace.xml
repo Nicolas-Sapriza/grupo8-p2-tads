@@ -4,7 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a71ba1d5-9d35-40a5-8880-eef6f24121d9" name="Changes" comment="agregar estructura de archivos." />
+    <list default="true" id="a71ba1d5-9d35-40a5-8880-eef6f24121d9" name="Changes" comment="agregar estructura de archivos.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash/HashNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash/MyHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash/MyHashImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash/exceptions/ErrorControlado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/heap/MyHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/heap/MyHeapImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/heap/exceptions/EmptyHeapException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/linkedlist/MyLinkedListImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/linkedlist/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/linkedlist/exceptions/EmptyListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree/MyTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree/NodoArbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree/exceptions/EmptyListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree/exceptions/ErrorControlado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/treebst/MyBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/treebst/NodeBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/treebst/TreeBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/treebst/exceptions/ErrorControlado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/tree/exceptions/ErrorControlado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grupo8-p2-tads.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grupo8-p2-tads.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/DoublyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/DoublyNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/MyDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/MyDoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/queue/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/queue/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/queue/MyQueueImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/queue/MyQueueImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/queue/exceptions/EmptyQueueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/queue/exceptions/EmptyQueueException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/stack/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/stack/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/stack/MyStackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/stack/MyStackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/stack/exceptions/EmptyStackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/doublylinkedlist/stack/exceptions/EmptyStackException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash/exceptions/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/heap/exceptions/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/linkedlist/exceptions/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree/exceptions/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/treebst/exceptions/empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/doublylinkedlist/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/doublylinkedlist/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/doublylinkedlist/queue/MyQueueImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/doublylinkedlist/queue/MyQueueImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/doublylinkedlist/stack/MyStackImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/doublylinkedlist/stack/MyStackImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/uy/edu/um/prog2/adt/tree/exceptions/empty.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +57,100 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2QWHxfLWDRFx0bdQjls3ECvFypt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/brunoramos/Desktop/Obligatorio_local/obligatorio/grupo8-p2-tads/src/uy/edu/um/prog2/adt/treebst"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/treebst/" />
+      <recent name="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/tree" />
+      <recent name="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/linkedlist/" />
+      <recent name="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash/" />
+      <recent name="$PROJECT_DIR$/src/uy/edu/um/prog2/adt/hash" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="uy.edu.um.prog2.adt.hash" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="uy.edu.um.prog2.adt.treebst" />
+      <recent name="uy.edu.um.prog2.adt.treebst.exceptions" />
+      <recent name="uy.edu.um.prog2.adt.tree.exceptions" />
+      <recent name="uy.edu.um.prog2.adt.tree" />
+      <recent name="uy.edu.um.prog2.adt.linkedlist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyStackImplTest">
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grupo8-p2-tads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uy.edu.um.prog2.adt.doublylinkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uy.edu.um.prog2.adt.doublylinkedlist" />
+      <option name="MAIN_CLASS_NAME" value="uy.edu.um.prog2.adt.doublylinkedlist.DoublyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueueImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grupo8-p2-tads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uy.edu.um.prog2.adt.doublylinkedlist.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uy.edu.um.prog2.adt.doublylinkedlist.queue" />
+      <option name="MAIN_CLASS_NAME" value="uy.edu.um.prog2.adt.doublylinkedlist.queue.MyQueueImpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStackImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grupo8-p2-tads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uy.edu.um.prog2.adt.doublylinkedlist.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uy.edu.um.prog2.adt.doublylinkedlist.stack" />
+      <option name="MAIN_CLASS_NAME" value="uy.edu.um.prog2.adt.doublylinkedlist.stack.MyStackImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyStackImplTest" />
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
+        <item itemvalue="JUnit.MyQueueImpTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

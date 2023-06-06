@@ -1,8 +1,8 @@
-package uy.edu.um.prog2.entities.tads.stack;
+package uy.edu.um.prog2.adt.doublylinkedlist.stack;
 
 import org.junit.jupiter.api.Test;
-import uy.edu.um.prog2.exceptions.stack.EmptyStackException;
-import uy.edu.um.prog2.interfaces.stack.MyStack;
+import uy.edu.um.prog2.adt.doublylinkedlist.stack.exceptions.EmptyStackException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class MyStackImplTest {

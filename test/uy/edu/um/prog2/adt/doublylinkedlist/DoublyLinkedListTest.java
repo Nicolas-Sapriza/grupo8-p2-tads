@@ -1,7 +1,6 @@
-package uy.edu.um.prog2.entities.tads.doublelinkedlist;
+package uy.edu.um.prog2.adt.doublylinkedlist;
 
 import org.junit.jupiter.api.Test;
-import uy.edu.um.prog2.interfaces.doublelinkedlist.MyDoublyLinkedList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
