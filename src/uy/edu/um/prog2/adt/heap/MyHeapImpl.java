@@ -4,12 +4,12 @@ import uy.edu.um.prog2.adt.heap.exceptions.EmptyHeapException;
 
 public class MyHeapImpl<T extends Comparable<T>> implements MyHeap<T> {
     private static final int DEFAULT_CAPACITY = 10;
-    private Object[] listaElementos;
+    private T[] listaElementos;
     private int size;
     private boolean esMinimo;
 
     public MyHeapImpl(boolean minimo) {
-        this.listaElementos = new Object[DEFAULT_CAPACITY];
+        this.listaElementos = (T[]) new Comparable[DEFAULT_CAPACITY];
         this.size = 0;
         this.esMinimo = minimo;
     }
@@ -58,7 +58,7 @@ public class MyHeapImpl<T extends Comparable<T>> implements MyHeap<T> {
     private void subir(int index) {
         int parentIndex = (index - 1) / 2;
 
-        while (index > 0 && compararNumeros((Integer) listaElementos[index], (Integer) listaElementos[parentIndex]) > 0) {
+        while (index > 0 && compararNumeros(listaElementos[index], listaElementos[parentIndex]) > 0) {
             swap(index, parentIndex);
             index = parentIndex;
             parentIndex = (index - 1) / 2;
@@ -88,8 +88,8 @@ public class MyHeapImpl<T extends Comparable<T>> implements MyHeap<T> {
         }
     }
 
-    private int compararNumeros(int i, int j) {
-        int resultado = Integer.compare(i, j);
+    private int compararNumeros(T i, T j) {
+        int resultado = i.compareTo(j);
         return esMinimo ? resultado * -1 : resultado; // Multiplicar por -1 si es un heap mínimo
     }
 
@@ -104,14 +104,14 @@ public class MyHeapImpl<T extends Comparable<T>> implements MyHeap<T> {
     }
 
     private void swap(int i, int j) {
-        Object temp = listaElementos[i];
+        T temp = listaElementos[i];
         listaElementos[i] = listaElementos[j];
         listaElementos[j] = temp;
     }
 
     //Sugerencia GPT
     private void resizeArray() {
-        Object[] newArray = new Object[listaElementos.length * 2];
+        T[] newArray = (T[]) new Comparable[listaElementos.length * 2];
         System.arraycopy(listaElementos, 0, newArray, 0, size);
         listaElementos = newArray;
     }

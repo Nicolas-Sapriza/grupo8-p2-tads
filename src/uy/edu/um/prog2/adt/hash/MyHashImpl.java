@@ -42,6 +42,27 @@ public class MyHashImpl<K, V> implements MyHash<K, V> {
             }
         }
     }
+    public Object get(Object key) {
+        int posicion = key.hashCode() % size;
+
+        if (tablaHash[posicion] != null && tablaHash[posicion].getKey().equals(key)) {
+            return tablaHash[posicion].getData();
+        } else {
+            int attempt = 1;
+            int nuevaPosicion = (key.hashCode() + linearColision(attempt)) % size;
+
+            while (tablaHash[nuevaPosicion] != null && attempt <= size) {
+                if (tablaHash[nuevaPosicion].getKey().equals(key)) {
+                    return tablaHash[nuevaPosicion].getData();
+                }
+                attempt++;
+                nuevaPosicion = (key.hashCode() + linearColision(attempt)) % size;
+            }
+        }
+
+        return null; // Clave no encontrada, devuelve null
+    }
+
 
 
     private int linearColision(int attempt){
