@@ -49,13 +49,13 @@ public class TreeBST<K,T> implements MyBinarySearchTree {
                 TreeBST arbolBinario = new TreeBST();
                 arbolBinario.setRaiz(raiz.nodoIzquierdo);
                 return arbolBinario.find(key);
-            }
+            }else{return null;}
         } else if (raiz.compareTo(temp) <0) {
             if (raiz.nodoDerecho!=null){
                 TreeBST arbolBinario = new TreeBST();
                 arbolBinario.setRaiz(raiz.nodoDerecho);
                 return arbolBinario.find(key);
-            }
+            }else{return null;}
         } else {
             data = raiz.getData();
         }
